@@ -1,0 +1,22 @@
+.welcome-p {
+  margin: 10px;
+}
+
+.border {
+  border: 5px double;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.border.pink {
+  border-color: pink;
+}
+.border.blue {
+  border-color: lightblue;
+}
+.border.yellow {
+  border-color: rgb(240, 240, 63);
+}
+.border.green {
+  border-color: lightgreen;
+}

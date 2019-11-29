@@ -1,0 +1,24 @@
+.form2-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.form2 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form2 > .name,
+.form2 > .gender {
+  margin: 10px;
+}
+
+.gender > label > label {
+  margin-right: 10px;
+}
+.form2 span {
+  width: 45px;
+  display: inline-block;
+}
+.form2 .submit {
+  margin: 10px;
+}

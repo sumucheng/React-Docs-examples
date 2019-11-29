@@ -9,12 +9,12 @@
   text-shadow: 3px 3px pink;
   letter-spacing: 5px;
 }
-li {
-  line-height: 25px;
+.todo-ul {
+  margin-left: 20px;
 }
 .date {
   margin-left: 30px;
 }
 .todo-form {
-  margin-left: 24px;
+  margin-left: 20px;
 }

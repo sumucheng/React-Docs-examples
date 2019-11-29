@@ -7,7 +7,7 @@ function List(props) {
     return [date.getMonth(), date.getDate()];
   }
   return (
-    <ul>
+    <ul className="todo-ul">
       {props.events.map((i, index) => (
         <li key={index}>
           {i.text}

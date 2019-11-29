@@ -1,0 +1,9 @@
+.boiling-fieldset {
+  border: 3px dashed peachpuff;
+  margin: 10px;
+  padding: 5px;
+}
+.boiling-water {
+  margin: 10px;
+  text-align: center;
+}

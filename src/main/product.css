@@ -1,0 +1,25 @@
+table,
+td {
+  border: 1px solid palevioletred;
+}
+table {
+  width: 70%;
+}
+
+thead {
+  background-color: palevioletred;
+  color: #fff;
+}
+.productList {
+  display: flex;
+  justify-content: center;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.searchBar > input {
+  margin-right: 5px;
+}

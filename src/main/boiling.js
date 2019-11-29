@@ -5,7 +5,11 @@ import "./boiling.css";
 function Water(props) {
   return (
     <div>
-      <p>{parseFloat(props.tem) >= 100 ? "boiling" : "not boiling"}</p>
+      <p className="boiling-water">
+        {parseFloat(props.tem) >= 100
+          ? "~~~~~水烧开啦~~~~~~"
+          : "------------水------------"}
+      </p>
     </div>
   );
 }
@@ -16,7 +20,7 @@ function Input(props) {
   }
   return (
     <div>
-      <fieldset>
+      <fieldset className="boiling-fieldset">
         <legend>输入一个{props.name === "c" ? "摄氏" : "华氏"}温度</legend>
         <input value={props.tem} onChange={change}></input>
       </fieldset>

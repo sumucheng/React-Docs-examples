@@ -1,0 +1,57 @@
+.welcome {
+  text-align: center;
+  background: pink;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.theme-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #eee;
+}
+
+.theme-div {
+  margin: 0;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ddd;
+}
+.theme-div.light {
+  color: #555;
+  background: white;
+}
+.theme-div.dark {
+  background: #333;
+  color: white;
+}
+
+.theme-button {
+  position: absolute;
+  right: 0;
+  width: 7%;
+}
+.theme-button.light {
+  background: white;
+}
+.theme-button.dark {
+  background: #333;
+  color: white;
+}
+
+.theme-content {
+  width: 80%;
+  padding: 10px;
+  line-height: 1.8em;
+  font-size: 14px;
+}
+.theme-content.dark {
+  background: #333;
+  color: white;
+}
+.theme-content.light {
+  color: black;
+  background: white;
+}
