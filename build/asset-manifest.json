@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sumucheng/React-Docs-examples/build/static/css/main.fa87e3b8.chunk.css",
+    "main.js": "/sumucheng/React-Docs-examples/build/static/js/main.45805c21.chunk.js",
+    "main.js.map": "/sumucheng/React-Docs-examples/build/static/js/main.45805c21.chunk.js.map",
+    "runtime-main.js": "/sumucheng/React-Docs-examples/build/static/js/runtime-main.92c5f27e.js",
+    "runtime-main.js.map": "/sumucheng/React-Docs-examples/build/static/js/runtime-main.92c5f27e.js.map",
+    "static/js/2.ca575351.chunk.js": "/sumucheng/React-Docs-examples/build/static/js/2.ca575351.chunk.js",
+    "static/js/2.ca575351.chunk.js.map": "/sumucheng/React-Docs-examples/build/static/js/2.ca575351.chunk.js.map",
+    "index.html": "/sumucheng/React-Docs-examples/build/index.html",
+    "precache-manifest.3a84156d89fd86de4a8c96226c32e742.js": "/sumucheng/React-Docs-examples/build/precache-manifest.3a84156d89fd86de4a8c96226c32e742.js",
+    "service-worker.js": "/sumucheng/React-Docs-examples/build/service-worker.js",
+    "static/css/main.fa87e3b8.chunk.css.map": "/sumucheng/React-Docs-examples/build/static/css/main.fa87e3b8.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92c5f27e.js",
+    "static/js/2.ca575351.chunk.js",
+    "static/css/main.fa87e3b8.chunk.css",
+    "static/js/main.45805c21.chunk.js"
+  ]
+}

@@ -1,0 +1,14 @@
+.form {
+  margin: 10px;
+}
+.form > .name,
+.form > .gender {
+  margin: 10px;
+}
+.form span {
+  width: 65px;
+  display: inline-block;
+}
+.form button {
+  margin-left: 10px;
+}

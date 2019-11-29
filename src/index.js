@@ -1,12 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Todo from "./main/todo";
+import Clock from "./main/clock";
+import Login from "./main/login";
+import Form from "./main/form";
+import Boil from "./main/boiling";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function App() {
+  return (
+    <div className="wrapper">
+      <Clock />
+      <Todo />
+      <Login />
+      <Form />
+      <Boil />
+    </div>
+  );
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById("root"));

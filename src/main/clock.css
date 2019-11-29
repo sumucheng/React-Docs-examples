@@ -1,0 +1,11 @@
+.clock {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: pink;
+  font-family: Courier, monospace;
+  text-shadow: #fc0 0 0 70px;
+}
