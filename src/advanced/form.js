@@ -1,6 +1,6 @@
 // 非受控组件
 
-import React, { useState, useEffect, createRef } from "react";
+import React from "react";
 import "./form.css";
 
 function Form() {
@@ -28,9 +28,9 @@ function Form() {
           <label>
             <span>性别:</span>
             <input type="radio" name="gender" value="male" defaultChecked />
-            <label for="male">男</label>
+            <label htmlFor="male">男</label>
             <input type="radio" name="gender" value="female" />
-            <label for="female">女</label>
+            <label htmlFor="female">女</label>
           </label>
         </div>
         <input type="submit" value="确认" className="submit" />

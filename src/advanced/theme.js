@@ -1,6 +1,6 @@
 // context
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./theme.css";
 
 const { Provider, Consumer } = React.createContext("light");
@@ -22,7 +22,6 @@ function Nav({ theme, ...rest }) {
 }
 
 function Content({ theme, ...rest }) {
-  console.log(theme);
   return (
     <div className={`theme-content ${theme}`} {...rest}>
       <p>{article}</p>

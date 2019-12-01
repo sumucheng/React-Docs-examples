@@ -19,6 +19,8 @@ function Form() {
       case "gender":
         setGender(e.target.value);
         break;
+      default:
+        break;
     }
   }
 

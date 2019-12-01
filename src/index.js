@@ -8,9 +8,9 @@ import Form from "./main/form";
 import Boil from "./main/boiling";
 import Welcome from "./main/welcome.js";
 import Product from "./main/product";
-import Refs from "./advanced/refs";
 import Form2 from "./advanced/form";
 import Theme from "./advanced/theme";
+import Table from "./advanced/fragments";
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
       <Product />
       <Form2 />
       <Theme />
+      <Table />
     </div>
   );
 }

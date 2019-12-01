@@ -1,0 +1,19 @@
+.fragments-table td {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.fragments-table {
+  margin: 10px;
+  border: 1px solid palevioletred;
+}
+
+.fragments-table thead {
+  background-color: palevioletred;
+  color: #fff;
+}
+
+.fragments-wrapper {
+  display: flex;
+  justify-content: center;
+}

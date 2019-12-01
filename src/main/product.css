@@ -1,12 +1,12 @@
-table,
-td {
+.product-table,
+.product-table td {
   border: 1px solid palevioletred;
 }
-table {
+.product-table {
   width: 70%;
 }
 
-thead {
+.product-table thead {
   background-color: palevioletred;
   color: #fff;
 }

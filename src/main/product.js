@@ -64,13 +64,15 @@ function ProductList(props) {
     if (i.category !== cat) {
       rows.push(<Category category={i.category} key={i.category} />);
     }
-    rows.push(<Product stocked={i.stocked} name={i.name} price={i.price} />);
+    rows.push(
+      <Product key={i.name} stocked={i.stocked} name={i.name} price={i.price} />
+    );
     cat = i.category;
   });
 
   return (
     <div className="productList">
-      <table>
+      <table className="product-table">
         <thead>
           <tr>
             <th>Name</th>
